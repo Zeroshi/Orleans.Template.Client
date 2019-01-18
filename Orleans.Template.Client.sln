@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orleans.ExampleClient", "Orleans.ExampleClient\Orleans.ExampleClient.csproj", "{80B9BB7D-0304-4288-BF7D-9A414C53244A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orleans.Template.Client", "Orleans.ExampleClient\Orleans.Template.Client.csproj", "{80B9BB7D-0304-4288-BF7D-9A414C53244A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handler", "Handler\Handler.csproj", "{222C1756-BEED-4B94-AA07-42691615E785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Handler", "Handler\Handler.csproj", "{222C1756-BEED-4B94-AA07-42691615E785}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
