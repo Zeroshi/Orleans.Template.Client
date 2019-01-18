@@ -5,8 +5,8 @@ EXPOSE 443
 
 FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
-COPY ["Orleans.Template.Client/Orleans.Template.Client.csproj", "Orleans.Template.Client/"]
-RUN dotnet restore "Orleans.Template.Client/Orleans.Template.Client.csproj"
+COPY ["Orleans.ExampleClient/Orleans.Template.Client.csproj", "Orleans.Template.Client/"]
+RUN dotnet restore "Orleans.ExampleClient/Orleans.Template.Client.csproj"
 COPY . .
 WORKDIR "/src/Orleans.Template.Client"
 RUN dotnet build "Orleans.Template.Client.csproj" -c Release -o /app
