@@ -1,6 +1,6 @@
 using System;
 
-namespace Orleans.ExampleClient.Models
+namespace Orleans.Template.Client.Models
 {
     public class ErrorViewModel
     {

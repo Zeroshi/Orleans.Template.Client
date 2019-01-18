@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Orleans.ExampleClient.Models;
+using Orleans.Template.Client.Models;
 
-namespace Orleans.ExampleClient.Controllers
+namespace Orleans.Template.Client.Controllers
 {
     public class HomeController : Controller
     {

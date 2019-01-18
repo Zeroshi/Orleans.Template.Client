@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Orleans.ExampleClient
+namespace Orleans.Template.Client
 {
     public class Program
     {

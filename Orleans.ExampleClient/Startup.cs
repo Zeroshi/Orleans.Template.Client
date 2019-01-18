@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Orleans.ExampleClient
+namespace Orleans.Template.Client
 {
     public class Startup
     {
